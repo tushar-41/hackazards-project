@@ -7,7 +7,7 @@ export default function LandingPage() {
   return (
     <div className="h-screen bg-gradient-to-br from-indigo-600 to-purple-800 flex flex-col justify-center items-center text-white p-6">
       <h1 className="text-5xl font-bold mb-6 text-center drop-shadow-md">
-        Your Personal <span className="text-yellow-300">AI Mentor</span>
+        Your Personal <span className="text-yellow-300">TASK MANAGER</span>
       </h1>
 
       <button
@@ -19,4 +19,3 @@ export default function LandingPage() {
     </div>
   );
 }
-
