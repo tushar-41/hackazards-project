@@ -22,7 +22,7 @@ export default function Dashboard() {
       {sidebarOpen && (
         <aside className="w-48 bg-neutral-800 p-4 flex flex-col justify-between shadow-lg transition-all duration-300">
           <div>
-            <h2 className="text-xl font-bold mb-6 text-center tracking-wide">✨ AI Mentor</h2>
+            <h2 className="text-xl font-bold mb-6 text-center tracking-wide">✨ Task Manager</h2>
             <nav className="space-y-3 text-sm">
               <button className="block w-full text-left px-3 py-2 rounded hover:bg-neutral-700 transition">Dashboard</button>
               <button className="block w-full text-left px-3 py-2 rounded hover:bg-neutral-700 transition">My Tasks</button>
