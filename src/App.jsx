@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { supabase } from './utils/supabase';
 
 import LandingPage from './pages/LandingPage';
-import Auth from './auth/auth';
+import Auth from './auth/authentication.jsx';
 import Dashboard from './pages/Dashboard';
 import DailyForm from './components/DailyForm';
 
